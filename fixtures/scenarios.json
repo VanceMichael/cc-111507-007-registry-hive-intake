@@ -10,7 +10,10 @@
       "gap.dlt"
     ],
     "behavior": "standard",
-    "description": "车端售后日志：standard"
+    "description": "车端售后日志：standard",
+    "build": "build-a",
+    "bootId": "boot-1",
+    "dictionary": "dictionary.json"
   },
   {
     "id": "wrong-dictionary",
@@ -23,7 +26,10 @@
       "gap.dlt"
     ],
     "behavior": "wrong-dictionary",
-    "description": "车端售后日志：wrong-dictionary"
+    "description": "车端售后日志：wrong-dictionary",
+    "build": "build-a",
+    "bootId": "boot-1",
+    "dictionary": "other-dictionary.json"
   },
   {
     "id": "missing-dictionary",
@@ -36,7 +42,10 @@
       "gap.dlt"
     ],
     "behavior": "missing-dictionary",
-    "description": "车端售后日志：missing-dictionary"
+    "description": "车端售后日志：missing-dictionary",
+    "build": "build-a",
+    "bootId": "boot-1",
+    "dictionary": null
   },
   {
     "id": "counter-gap",
@@ -49,6 +58,9 @@
       "gap.dlt"
     ],
     "behavior": "counter-gap",
-    "description": "车端售后日志：counter-gap"
+    "description": "车端售后日志：counter-gap",
+    "build": "build-a",
+    "bootId": "boot-1",
+    "dictionary": "dictionary.json"
   }
 ]
