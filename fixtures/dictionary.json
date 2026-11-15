@@ -1,0 +1,15 @@
+{
+  "ecu": "ECU1",
+  "application": "APP1",
+  "context": "CTX1",
+  "build": "build-a",
+  "messages": {
+    "1001": [
+      {
+        "name": "temperature",
+        "type": "uint16",
+        "unit": "C"
+      }
+    ]
+  }
+}

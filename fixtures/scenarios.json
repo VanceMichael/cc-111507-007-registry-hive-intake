@@ -1,0 +1,54 @@
+[
+  {
+    "id": "standard",
+    "entry": "vehicle.dlt",
+    "version": "source-v1",
+    "resources": [
+      "vehicle.dlt",
+      "dictionary.json",
+      "other-dictionary.json",
+      "gap.dlt"
+    ],
+    "behavior": "standard",
+    "description": "车端售后日志：standard"
+  },
+  {
+    "id": "wrong-dictionary",
+    "entry": "vehicle.dlt",
+    "version": "source-v1",
+    "resources": [
+      "vehicle.dlt",
+      "dictionary.json",
+      "other-dictionary.json",
+      "gap.dlt"
+    ],
+    "behavior": "wrong-dictionary",
+    "description": "车端售后日志：wrong-dictionary"
+  },
+  {
+    "id": "missing-dictionary",
+    "entry": "vehicle.dlt",
+    "version": "source-v1",
+    "resources": [
+      "vehicle.dlt",
+      "dictionary.json",
+      "other-dictionary.json",
+      "gap.dlt"
+    ],
+    "behavior": "missing-dictionary",
+    "description": "车端售后日志：missing-dictionary"
+  },
+  {
+    "id": "counter-gap",
+    "entry": "gap.dlt",
+    "version": "source-v1",
+    "resources": [
+      "vehicle.dlt",
+      "dictionary.json",
+      "other-dictionary.json",
+      "gap.dlt"
+    ],
+    "behavior": "counter-gap",
+    "description": "车端售后日志：counter-gap"
+  }
+]
