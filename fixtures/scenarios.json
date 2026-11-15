@@ -1,66 +1,54 @@
 [
   {
     "id": "standard",
-    "entry": "vehicle.dlt",
+    "entry": "application.hive",
     "version": "source-v1",
     "resources": [
-      "vehicle.dlt",
-      "dictionary.json",
-      "other-dictionary.json",
-      "gap.dlt"
+      "application.hive",
+      "dirty.hive",
+      "outside.hive",
+      "cycle.hive"
     ],
     "behavior": "standard",
-    "description": "车端售后日志：standard",
-    "build": "build-a",
-    "bootId": "boot-1",
-    "dictionary": "dictionary.json"
+    "description": "授权离线应用配置：standard"
   },
   {
-    "id": "wrong-dictionary",
-    "entry": "vehicle.dlt",
+    "id": "unsynchronized",
+    "entry": "dirty.hive",
     "version": "source-v1",
     "resources": [
-      "vehicle.dlt",
-      "dictionary.json",
-      "other-dictionary.json",
-      "gap.dlt"
+      "application.hive",
+      "dirty.hive",
+      "outside.hive",
+      "cycle.hive"
     ],
-    "behavior": "wrong-dictionary",
-    "description": "车端售后日志：wrong-dictionary",
-    "build": "build-a",
-    "bootId": "boot-1",
-    "dictionary": "other-dictionary.json"
+    "behavior": "unsynchronized",
+    "description": "授权离线应用配置：unsynchronized"
   },
   {
-    "id": "missing-dictionary",
-    "entry": "vehicle.dlt",
+    "id": "outside-index",
+    "entry": "outside.hive",
     "version": "source-v1",
     "resources": [
-      "vehicle.dlt",
-      "dictionary.json",
-      "other-dictionary.json",
-      "gap.dlt"
+      "application.hive",
+      "dirty.hive",
+      "outside.hive",
+      "cycle.hive"
     ],
-    "behavior": "missing-dictionary",
-    "description": "车端售后日志：missing-dictionary",
-    "build": "build-a",
-    "bootId": "boot-1",
-    "dictionary": null
+    "behavior": "outside-index",
+    "description": "授权离线应用配置：outside-index"
   },
   {
-    "id": "counter-gap",
-    "entry": "gap.dlt",
+    "id": "cycle",
+    "entry": "cycle.hive",
     "version": "source-v1",
     "resources": [
-      "vehicle.dlt",
-      "dictionary.json",
-      "other-dictionary.json",
-      "gap.dlt"
+      "application.hive",
+      "dirty.hive",
+      "outside.hive",
+      "cycle.hive"
     ],
-    "behavior": "counter-gap",
-    "description": "车端售后日志：counter-gap",
-    "build": "build-a",
-    "bootId": "boot-1",
-    "dictionary": "dictionary.json"
+    "behavior": "cycle",
+    "description": "授权离线应用配置：cycle"
   }
 ]

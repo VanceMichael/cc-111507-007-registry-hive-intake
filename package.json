@@ -1,5 +1,5 @@
 {
-  "name": "diagnostic-log-intake",
+  "name": "registry-hive-intake",
   "version": "0.1.0",
   "private": true,
   "type": "module",

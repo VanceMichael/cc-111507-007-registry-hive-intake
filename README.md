@@ -1,4 +1,4 @@
-# 车端售后日志
+# 授权离线应用配置
 
 该服务用于保留已获授权的来源材料及其收件证据。当前提供原始资料接收、字节摘要、来源元信息检查和收件查询，结构化接收方式尚未开放。来源服务和样例均在本机运行；资料中的单位、账号及标识都是合成值。
 
@@ -18,9 +18,9 @@ npm start
 ## 容器
 
 ```sh
-docker build -t diagnostic-log-intake:local .
-docker run --rm --network none diagnostic-log-intake:local npm test
-docker run --rm --network none diagnostic-log-intake:local npm run demo
+docker build -t registry-hive-intake:local .
+docker run --rm --network none registry-hive-intake:local npm test
+docker run --rm --network none registry-hive-intake:local npm run demo
 ```
 
 镜像构建准备阶段完成依赖安装，运行不需要公网服务。接口约定见 `docs/接入约定.md`，来源格式范围见 `docs/来源格式.md`。`src/source-metadata.mjs` 只识别文件元信息，不代表已提取结构化记录。文件收件与完整业务覆盖是不同状态。

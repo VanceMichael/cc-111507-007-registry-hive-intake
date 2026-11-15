@@ -14,7 +14,7 @@ test('结构化收件：来源记录、可查询性及覆盖身份', { skip: pro
     assert.ok(['complete','partial'].includes(result.state));
     assert.ok(Array.isArray(result.records));
     assert.ok(Array.isArray(result.issues));
-    assert.equal(result.records.length, 3); assert.ok(JSON.stringify(result.records).includes('1001'));
+    assert.equal(result.records.length, 2); assert.ok(result.records.some(record => record.valueName === 'Capacity' && record.value === 42));
     const saved=await (await fetch(`${service.baseUrl}/v1/receipts/${result.id}`)).json();
     assert.deepEqual(saved.records,result.records);
     assert.deepEqual(saved.coverage,result.coverage);
